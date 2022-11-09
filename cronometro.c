@@ -6,7 +6,6 @@ Projeto da Emotion Now em conjunto com a Flow
 
 //Macros
 #define FILE_S "sensor_data.txt"
-#define ENOENT 2
 
 //Bibliotecas
 #include<stdio.h> //Biblioteca necessárioa para input e output
