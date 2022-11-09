@@ -1,6 +1,6 @@
 /*
 Código feito por Emotion Now
-Autor: Guilherme Laurindo Schneck
+Autor: Guilherme Laurindo Schneck / Hugo campelo de Melo Rosa
 Projeto da Emotion Now em conjunto com a Flow
 */
 
