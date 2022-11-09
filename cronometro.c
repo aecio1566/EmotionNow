@@ -15,10 +15,6 @@ Projeto da Emotion Now em conjunto com a Flow
 #include<windows.h> //Biblioteca necessária para limpar o console
 #include<math.h> //Biblioteca necessária para fazer operações matemáticas no código
 #include<conio.h> //Biblioteca necessária para detectar input de teclado sem parar o código
-#include<sys/stat.h>
-
-//Declaração de funções
-int fileExists(char *cpfileName);
 
 int main()
 {
