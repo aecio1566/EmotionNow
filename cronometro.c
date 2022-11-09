@@ -18,7 +18,7 @@ int main()
     int sec = 0;
     int min = 0;
     int hour = 0;
-    int data = 0;
+    double data = (194927035+rand() % (1000000000-194927035))*0.000000001; //Gerador de dados aleatórios, pois não temos acesso aos reais ainda
     char inp;
     FILE *fp;
 
@@ -29,7 +29,7 @@ int main()
     if(inp)
     {
         system("cls");
-        
+
         Sleep(10);
         while (1)
         {
@@ -48,9 +48,7 @@ int main()
                     }
                 }
 
-                data = 194927035+rand() % (1000000000-194927035); //Gerador de dados aleatórios, pois não temos acesso aos reais ainda
-
-                fprintf(fp, "%d:%d:%d -- %d\n", hour, min, sec, data);
+                fprintf(fp, "%d:%d:%d -- %.9f\n", hour, min, sec, data);
                 
                 sec++;
                 Sleep(1000);
