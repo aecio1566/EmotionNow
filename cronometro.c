@@ -28,6 +28,8 @@ int main()
     scanf("%c", &inp);
     if(inp)
     {
+        system("cls");
+        
         Sleep(10);
         while (1)
         {
@@ -48,8 +50,6 @@ int main()
 
                 data = 194927035+rand() % (1000000000-194927035); //Gerador de dados aleatórios, pois não temos acesso aos reais ainda
 
-                system("cls");
-
                 fprintf(fp, "%d:%d:%d -- %d\n", hour, min, sec, data);
                 
                 sec++;
@@ -59,5 +59,6 @@ int main()
     }
     
     fclose(fp);
+    printf("Dados salvos com sucesso!");
     return 0;
 }
