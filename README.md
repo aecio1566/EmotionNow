@@ -28,7 +28,7 @@ Google Docs
 Aécio Laurentino - 
 Brunna Pontual - 
 Eduardo Loyo - 
-Felie Segio - 
+Felipe Sérgio - 
 Guilherme Schnek - 
 Hugo Campelo - 
 Joao Luis - 
