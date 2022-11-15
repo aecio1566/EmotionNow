@@ -103,32 +103,32 @@ int main()
     char cmplogin[30], cmpsenha[30];
 
     
-    printf("\t\tMenu de Cadastro\n\n ");
+    printf("\n\t\tMenu de Cadastro\n\n ");
 
 
     do{
 
-    printf("Insira seu nome: ");
+    printf("\nInsira seu nome: ");
     scanf(" %s",nome);
     fflush(stdin);
 
-    printf("Insira seu nick: ");
+    printf("\nInsira seu nick: ");
     scanf(" %s",nick);
     fflush(stdin);
 
-    printf("Insira seu email: ");
+    printf("\nInsira seu email: ");
     scanf( "%s", email);
     fflush(stdin);
 
-    printf("Insira sua idade: ");
+    printf("\nInsira sua idade: ");
     scanf("%d", &idade);
     fflush(stdin);
 
-    printf("Insira seu login: ");
+    printf("\nInsira seu login: ");
     scanf( "%s", login);
     fflush(stdin);
 
-    printf("Insira sua senha: ");
+    printf("\nInsira sua senha: ");
     scanf( "%s", senha);
     fflush(stdin);
 
